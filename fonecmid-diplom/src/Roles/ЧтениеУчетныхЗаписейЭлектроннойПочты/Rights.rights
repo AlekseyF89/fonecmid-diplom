@@ -4,26 +4,60 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.УчетныеЗаписиЭлектроннойПочты</name>
+		<name>Catalog.ВКМ_УведомленияТГБоту</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляОбъекта("")
-#Иначе
-#ПоЗначениямРасширенный("Справочник.УчетныеЗаписиЭлектроннойПочты", "", "",
-"",
-"",
-"УчетныеЗаписиЭлектроннойПочты", "Т.Ссылка", "ИЛИ(",
-"Пользователи", "Т.ВладелецУчетнойЗаписи", "И",
-"Условие", "Т.ВладелецУчетнойЗаписи &lt;&gt; Значение(Справочник.Пользователи.ПустаяСсылка)", ")",
-"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")
-#КонецЕсли</condition>
-			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -62,6 +96,25 @@
 		<name>CommonForm.ОтправкаСообщения</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ВКМ_ТокенУправленияТГБотом</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>
