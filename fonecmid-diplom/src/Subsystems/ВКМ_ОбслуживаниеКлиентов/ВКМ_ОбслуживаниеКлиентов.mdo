@@ -15,4 +15,5 @@
   <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
   <content>ScheduledJob.ВКМ_УведомленияТГБот</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_РаботаСМассовымСозданиемАктов</content>
 </mdclass:Subsystem>
