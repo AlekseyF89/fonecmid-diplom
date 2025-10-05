@@ -21,4 +21,6 @@
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>AccumulationRegister.ВКМ_УчетОтпусков</content>
 </mdclass:Subsystem>
