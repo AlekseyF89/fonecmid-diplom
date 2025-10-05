@@ -20,4 +20,5 @@
   <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
 </mdclass:Subsystem>
