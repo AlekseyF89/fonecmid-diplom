@@ -19,4 +19,6 @@
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Контрагенты</content>
 </mdclass:Subsystem>

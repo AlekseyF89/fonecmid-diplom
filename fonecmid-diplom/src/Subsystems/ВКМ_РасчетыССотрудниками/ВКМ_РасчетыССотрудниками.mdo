@@ -26,4 +26,5 @@
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_РасчётыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
 </mdclass:Subsystem>
