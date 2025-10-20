@@ -33,7 +33,8 @@
   <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>CommonModule.ВКМ_Телеграмм</content>
-  <content>Role.ВКМ_ДобавлениеИзменениеОбслуживанияКлиентов</content>
-  <content>Role.ВКМ_РаботаСМассовымСозданиемАктов</content>
-  <content>Role.ВКМ_РаботаСКадрДок</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчётыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
 </mdclass:Subsystem>
