@@ -68,8 +68,6 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.РеализацияТоваровУслуг.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.РеализацияТоваровУслуг.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <registerRecords>AccumulationRegister.ОбработкаЗаказов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -212,7 +210,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="0fa92a59-d7cb-4a74-829a-9b3e8366b05b">
+  <forms uuid="cab2d8e7-7ef8-44c4-b85b-24e81f7f3b78">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -221,7 +219,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="d29d810c-be27-43a4-aac0-3e952e31be0b">
+  <forms uuid="8624a4f7-2cc7-4155-8325-4bc963bfb8e1">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
