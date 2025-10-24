@@ -21,4 +21,8 @@
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Контрагенты</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
 </mdclass:Subsystem>

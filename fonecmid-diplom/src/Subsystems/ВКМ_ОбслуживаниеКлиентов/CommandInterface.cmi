@@ -8,12 +8,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.Create</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Catalog.Номенклатура.StandardCommand.Create</command>
       <visible>
         <common>true</common>
@@ -26,7 +20,13 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Catalog.ВКМ_УведомленияТГБоту.StandardCommand.Create</command>
+      <command>Document.РеализацияТоваровУслуг.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ДоговорыКонтрагентов.StandardCommand.Create</command>
       <visible>
         <common>true</common>
       </visible>
@@ -34,15 +34,36 @@
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
-      <group>NavigationPanelImportant</group>
+      <group>CommandGroup.ВКМ_Справочники</group>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_УведомленияТГБоту.StandardCommand.OpenList</commands>
+      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.ВКМ_Документы</group>
       <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
+      <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
-      <group>NavigationPanelImportant</group>
+      <group>CommandGroup.ВКМ_Справочники</group>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_УведомленияТГБоту.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.ВКМ_Документы</group>
       <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
+      <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
