@@ -15,36 +15,4 @@
 		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
 		<nature>com._1c.g5.v8.dt.core.V8ConfigurationNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>Releases/ВКМ_ФроловАВ.dt</name>
-			<type>1</type>
-			<location>D:/ДЗ/1С с нуля до мидл/20 Итоговый модуль профессии 1C-программист с нуля до middle/Диплом/ВКМ_ФроловАВ.dt</location>
-		</link>
-		<link>
-			<name>tests/БухгалтерИТФирмыАнализ.feature</name>
-			<type>1</type>
-			<location>D:/ДЗ/1С с нуля до мидл/20 Итоговый модуль профессии 1C-программист с нуля до middle/Диплом/БухгалтерИТФирмыАнализ.feature</location>
-		</link>
-		<link>
-			<name>tests/БухгалтерИТФирмыМассовое.feature</name>
-			<type>1</type>
-			<location>D:/ДЗ/1С с нуля до мидл/20 Итоговый модуль профессии 1C-программист с нуля до middle/Диплом/БухгалтерИТФирмыМассовое.feature</location>
-		</link>
-		<link>
-			<name>tests/Инструкция автотест.docx</name>
-			<type>1</type>
-			<location>D:/ДЗ/1С с нуля до мидл/20 Итоговый модуль профессии 1C-программист с нуля до middle/Диплом/Инструкция автотест.docx</location>
-		</link>
-		<link>
-			<name>tests/Менеджер.feature</name>
-			<type>1</type>
-			<location>D:/ДЗ/1С с нуля до мидл/20 Итоговый модуль профессии 1C-программист с нуля до middle/Диплом/Менеджер.feature</location>
-		</link>
-		<link>
-			<name>tests/Специалист.feature</name>
-			<type>1</type>
-			<location>D:/ДЗ/1С с нуля до мидл/20 Итоговый модуль профессии 1C-программист с нуля до middle/Диплом/Специалист.feature</location>
-		</link>
-	</linkedResources>
 </projectDescription>
