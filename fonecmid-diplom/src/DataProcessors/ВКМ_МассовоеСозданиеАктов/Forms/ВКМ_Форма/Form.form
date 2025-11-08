@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>ВКМ_Период</name>
     <id>1</id>
@@ -11,6 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.ВКМ_Период</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ВКМ_ПериодПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ВКМ_ПериодРасширеннаяПодсказка</name>
       <id>3</id>
@@ -171,31 +175,6 @@
     <autoCommandBar>
       <name>ВКМ_СписокКоманднаяПанель</name>
       <id>6</id>
-      <items xsi:type="form:Button">
-        <name>ВКМ_СписокВКМ_Заполнить</name>
-        <id>26</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ВКМ_СписокВКМ_ЗаполнитьРасширеннаяПодсказка</name>
-          <id>27</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <commandName>Form.Command.ВКМ_Заполнить</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
@@ -306,6 +285,7 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -363,27 +343,10 @@
     <main>true</main>
   </attributes>
   <formCommands>
-    <name>ВКМ_Заполнить</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить</value>
-    </title>
-    <id>1</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВКМ_Заполнить</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ВКМ_СоздатьРеализацию</name>
     <title>
       <key>ru</key>
-      <value>Создать реализацию</value>
+      <value>Создать (обновить) реализацию</value>
     </title>
     <id>2</id>
     <use>

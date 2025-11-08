@@ -47,6 +47,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="33fee64e-779d-4552-a179-dc37548cf751">
       <name>ВКМ_ДокументРеализации</name>
@@ -59,6 +60,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
   <forms uuid="13a02563-75d0-44d4-9ce8-3cd1d3c3859c">
